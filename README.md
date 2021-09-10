@@ -13,3 +13,11 @@ Neural networks and deep learning models will often converge on a local minimum.
 SVMs are less prone to overfitting because they are trying to maximize the distance, rather than encompass all data within a boundary.
 
 both models take similar amounts of time to train on the input data. The only noticeable difference between the two models is implementation—the amount of code required to build and train the SVM is notably less than the comparable deep learning model. As a result, many data scientists will prefer to use SVMs by default, then turn to deep learning models, as needed.
+# Random Forest Vs. Deep Learning Model
+Random forest is a supervised ensemble learning model that combines decision trees to analyze input data.
+forest models are easy to interpret, and they can easily handle outliers and nonlinear data
+![image](https://user-images.githubusercontent.com/82733723/132889545-5aa65ea1-5eaa-4024-bf8f-c54d65d207d9.png)
+random forest models will only handle tabular data, so data such as images or natural language data cannot be used in a random forest without heavy modifications to the data
+Neural networks can handle all sorts of data types and structures in raw format or with general transformations (such as converting categorical data).
+Random forest models are dependent on each weak learner being trained on a subset of the input data. Once each weak learner is trained, the random forest model predicts the classification based on a consensus of the weak learners. In contrast, deep learning models evaluate input data within a single neuron, as well as across multiple neurons and layers.
+
