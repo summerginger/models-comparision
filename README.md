@@ -1,4 +1,4 @@
-# models-comparision (module 19.5.3)
+# Models-comparision (module 19.5.3)
 ### Logistic Regression Vs. a Basic Neural Network
 
 Neural networks are prone to overfitting and can be more difficult to train than a straightforward logistic regression model.
